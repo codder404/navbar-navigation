@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 
-import SidebarData from './data';
+import { SidebarData } from './data';
 
 function Navbar () {
   const [sidebar, setSidebar] = useState(false);
