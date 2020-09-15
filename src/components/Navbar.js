@@ -4,6 +4,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 
 import { SidebarData } from './data';
+import './styles.css';
 
 function Navbar () {
   const [sidebar, setSidebar] = useState(false);
